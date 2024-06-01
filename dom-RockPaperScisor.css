@@ -1,0 +1,70 @@
+        header
+        {
+            background-color: whitesmoke;
+            color: black;
+            width: 100%;
+        }
+        ul
+        {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          list-style: none;
+          font-size: 2rem;
+        }
+        body
+        {
+            box-sizing: border-box;
+            background-color: black; 
+            margin: 0px;
+            padding: 0px;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .container
+        {
+            font-size: 2rem;
+            color: whitesmoke;
+            display: inline-block;
+            width: 700px;
+            height: 600px;
+            padding: 30px;
+            text-align: center
+        }
+        .rock,.paper,.Scisors
+        {
+            background-color: transparent;
+            color: whitesmoke;
+            font-size: 5rem;
+            border: 5px solid whitesmoke;
+            border-radius: 100%;
+            padding: 2rem;
+        }
+        .rock:hover,.paper:hover,.Scisors:hover
+        {
+            cursor: pointer;
+            /* transform: scale(-50px); */
+            transform: scale(110%,110%);
+            transition: all linear 0.2s 0s;
+        }
+        .Reset,.auto
+        {
+            border: 2px inset grey;
+            background-color: grey;
+            padding: 5px 10px;
+            font-weight: bold;
+        }
+        button
+        {
+            margin-right: 1rem;
+        }
+        .Reset:hover,.auto:hover
+        {
+            transform: scale(110%,110%);
+            transition: all linear 0.2s 0s;
+            border: 2px inset rgb(255, 255, 255);
+        }
+
